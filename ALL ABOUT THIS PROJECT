@@ -1,0 +1,47 @@
+This Angular Project comes under CAR RENTAL BUSINESS SYSTEMS.HTML,CSS,ANGULAR,javascript,AI are the skills used in this project.
+
+
+Happy miles… is about a car rental system which is totally a web based project. This is about renting a vehicle. It is an agreement where a payment is made for the temporary use of a vehicle owned by another. It is a system design specially for large, premium and small car rental business. This is a tool through which we can reserve available cars online prior to their expected pick-up time date or time. The car rental system provides complete functionality of listing and booking car.
+The advancement in IT and internet penetration has greatly enhanced various business processes and communication between companies(services provider) and their customers of which car rental industry is not left out. The user can view available cars and user can book for that car. 
+So, our team is here to built a more realistic and useful software which can be accessed at any time!. Our Rental systems majorly concentrates on Automobile rentals.
+Our goals:
+	At an affordable pricing, we provide you with best car rental travels in several parts of India.
+	In this pandemic, hygiene and safety play a very major role, we Happy Miles are here to provide complete safe and reliable service.
+	The admin can add the car so that the user can see the available cars and book the car. The admin can easily view the feedbacks and solve the query.
+To make this service more popular and accessible to the public it has been transform into a web base system and connected to the internet were everyone can be able to have access to it.
+
+Benefits of Online car Rental services:
+	This online car rental solution is fully functional and flexible.
+	It is very easy to use.
+	It saves a lot of time, money and labour.
+	Eco-friendly: The monitoring of the vehicle activity and the overall business becomes easy and includes the least paper work.
+	This service is available 24/7.
+	It increases the efficiency of the management at offering quality services to the customers.
+User stories:
+	As a customer I want the process to comprise with three elements . They are card, conversation, confirmation(3C’s) which is more efficient.
+	As a Software Engineer I want bookings to happen in a quick pace so that it wont get delayed more on a hectic day.
+	As a daily user of Public Transport I want the website to be designed in easy and simple looking so that I need not waste time searching for the things
+	As a person who don’t keep much cash and instead carry cards I need online payment which I don’t find in some online rentals
+	As a Busy Parent my child takes daily rides, I need it to be safe and secure so that there is are no such Bad circumstances
+	As a Senior citizen who does not know much using technology , I need the booking process to happen very easily in a couple or more clicks without any confusion
+	As, A pollution activist , I need you to also provide bicycles for rentals so that we can control way much of pollution
+	As a customer, I need good quality service well experienced drivers to ensure safe travelling and also effective maintenance of a car.
+	As a Doctor, I would mention to maintain well sanitized cars which is very important in this pandemic so that hygiene is maintained
+	As I love driving , I need option of selecting with driver or driverless car which lacks in many rentals
+	As a customer Searching cars should be accessible to people who are and are not logged in 
+	As a Middle class customer, I suggest affordable pricing so that everyone can access
+	As a customer I need a feed back section so that one can view the feedbacks and reviews and select  their vehicle on their  personal interest.
+	As a customer I need a specific section where I can be navigated directly to that particular page.
+Softwares required:
+•	Visual studio code, angular, express.js node.js
+•	MongoDB, Terra ER
+•	Star UML
+•	Python, Google colab
+Concepts from AI & MP1:
+Artificial intelligence: 
+1.	In our project we are going to create a chatbot which can help the user to access very easily.
+2.	And also we use few sorting algorithms to make our project much more user friendly.
+Mathematical programming: 
+1.	In this project we use Rudimentary algorithm from Mathematical programming.
+2.	It is also called as “Dijkstra’s algorithm”. It is commonly used to solve the shortest path.
+3.	In our project rudimentary algorithm is used to make optimal connections between our business centres.
