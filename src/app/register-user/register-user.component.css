@@ -1,0 +1,44 @@
+
+.hero-imag {
+  background-image: url("/assets/images/login.jpg");/* The image used */
+  /* Used if the image is unavailable */
+    height: 700px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+mat-card {
+  width: 30%;
+  margin: 10% auto;
+  border-radius: 8px;
+}
+mat-form-field, mat-checkbox {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+mat-card-content {
+  margin-top: 20px;
+  
+}
+
+.login-button {
+  margin-top: 20px;
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+.social-btn-icon{
+  height: 18px;
+  margin-left: 17px;
+  margin-bottom: -3px;
+}
+.responsive {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 0%;
+}
+.responsive:hover {
+  opacity: 1.0;
+}

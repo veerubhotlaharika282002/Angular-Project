@@ -1,0 +1,57 @@
+.mat-card{
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 2px 5px 10px black;
+    display: inline-block;
+    margin: 70px;
+    text-align: justify;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 20%;
+}
+.mat-card img{
+    width: 250px;
+    height: 300px;
+}
+.secondd .mat-card{
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 2px 5px 10px black;
+    display: inline-block;
+    margin: 70px;
+    text-align: justify;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 20%;
+}
+.secondd .mat-card img{
+    width: 300px;
+    height: 300px;
+}
+.one h1{
+    text-align: center;
+}
+.one h2{
+ text-align: center
+}
+.one{
+    background-image: url('/assets/images/gtr.jpg');
+    background-position: center;
+    position: relative;
+    font-weight: 500;
+}
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+button:hover{ 
+    background-color: black;
+     color: white; 
+     transition: .5s;
+     cursor: pointer;
+}
+.one .tww h1,h2{
+ color: white;
+}

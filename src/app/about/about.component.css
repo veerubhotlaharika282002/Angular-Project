@@ -1,0 +1,22 @@
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('/assets/images/gtr.jpg');
+    background-size: cover;
+}
+.contact  h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.contact h2{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}

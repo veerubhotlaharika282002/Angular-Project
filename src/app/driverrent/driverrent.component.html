@@ -1,0 +1,86 @@
+<div class="onee">
+    <mat-toolbar color="primary">Enter your personal details!!
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>
+            <mat-icon routerLink="/regular">home</mat-icon>
+          </button>
+    </mat-toolbar>
+<div class="first">
+    <h1><b>Book a Rental Car Exclusively with a driver</b></h1>
+    <h2>Benefit of renting a car with a driver is You donot need to put up some effort to drive for so long</h2>
+</div>
+<div class="second">
+    <form autocomplete="off" class="form" [formGroup]="myForm">
+        <div class="autocomplete" style="width:300px;">
+            <label for="lcountry">Select your location to rent a car</label><br>
+            <b><h3>Our Car Rental Service is only availble in Andhra Pradesh</h3></b>
+        </div>
+            <div class="form-group">
+               <b> <p>State:</p></b>
+        <select id="state" formControlName="state">
+            <option value="state">Andhra Pradesh</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <b> <p>City:</p></b>
+        <select id="city" formControlName="city">
+            <option value="city">Select a city</option>
+            <option value="city">Vijayawada</option>
+            <option value="city">Guntur</option>
+            <option value="city">Vishakapatnam</option>
+        </select>
+    </div>
+    <div class="form-group" >
+        <b><p>Pickup Date:</p></b>
+        <input type="date" name="" required formControlName="pickup" required>
+    </div>
+    <div class="form-group">
+        <b><p>Drop Date:</p></b>
+        <input type="date" name="" required formControlName="drop">
+    </div>
+    <div class="form-group">
+       <b> <p>Pick-Up Time:</p></b>
+        <input atp-time-picker value=" " required formControlName="pickupt">
+    </div>
+    <div class="form-group">
+       <b> <p>Drop Time:</p></b>
+        <input atp-time-picker value=" " required formControlName="dropt">
+    </div>
+    <div class="form-group">
+        <label for="fname"><b>First name:</b></label><br>
+        <input type="text" id="fname" name="fname" formControlName="firstname" required><br>
+    </div>
+    <div class="form-group">
+        <label for="lname"><b>Last name:</b></label><br>
+        <input type="text" id="lname" name="lname" formControlName="lastname" required><br>
+    </div>
+    <div class="form-group">
+        <label for="lname"><b>Phone number:</b></label><br>
+        <input type="text" id="lname" name="lname" formControlName="phone" required><br><br>
+    </div>
+    <div class="form-group">
+        <label for="lemail"><b>Email ID:</b></label><br>
+        <input type="text" id="lemail" name="lemail" formControlName="email" required><br><br>
+    </div>
+    <div class="form-group">
+        <label for="male"><b>Gender:</b></label><br>
+    </div>
+    <div class="form-group">
+        <input type="radio" id="male" name="gender" value="male" formControlName="gender">&nbsp;
+        <label for="male">Male</label><br>
+    </div>
+    <div class="form-group">
+        <input type="radio" id="female" name="gender" value="female" formControlName="gender">&nbsp;
+        <label for="female">Female</label><br>
+    </div>
+    <div class="form-group">
+        <input type="radio" id="other" name="gender" value="other" formControlName="gender">&nbsp;
+        <label for="other">Other</label>
+    </div>
+        <button (click)="Bookings()" routerLink="/payment">Submit
+            </button>
+            &nbsp;&nbsp;
+        <input type="reset" value="Reset">
+      </form>      
+</div>
+</div>

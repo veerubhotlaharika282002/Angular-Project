@@ -1,0 +1,36 @@
+ <body>
+    <mat-toolbar color="primary">Enter your personal details!!
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <button>
+               <mat-icon routerLink="/regular">home</mat-icon>
+             </button>
+       </mat-toolbar><br>
+            <h1 style="text-align: center;">CheckOut Details For Payment</h1>
+        <div class="checkout_form">
+            <div class="card_number" id="card-container">
+                <input type="text" class="input" id="card" placeholder="0000 0000 0000 0000">
+                <div id="logo"></div>
+            </div>
+            <div class="card_grp">
+                <div class="expiry_date">
+                    <input type="text" class="expiry_input" data-mask="00" placeholder="00">
+                    <input type="text" class="expiry_input" data-mask="00" placeholder="00">
+                </div>
+                <div class="cvv">
+                    <input type="text" class="cvv_input" placeholder="000">
+                    <div class="cvv-img"> ?
+                        <div class="img">
+                            <img src="/assets/images/retu.png" alt="cvv">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="btn" (click)="payment()">
+                pay
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="card-validator.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js"></script>
+    </body>
